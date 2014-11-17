@@ -25,3 +25,23 @@ header{
 .logo {
 	margin: 15px;
 }
+
+.nav-btn, 
+.nav-btn:link, 
+.nav-btn:visited{
+	display:block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 15px;
+	background: url(../images/nav-icon.svg) no-repeat right center;
+}
+
+.nav-top{
+	display: none;
+}
+
+.nav-top[data-state="expanded"]{
+	display: block;
+	margin-bottom: 30px;
+}
