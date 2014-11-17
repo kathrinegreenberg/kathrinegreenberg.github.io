@@ -16,7 +16,7 @@ html{
 
 body{
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
 
@@ -85,8 +85,8 @@ h1{
 	font-size: 85px;
 	text-align: center;
 	color: white;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 .name{
@@ -97,8 +97,8 @@ h1{
 h2{
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 .about{
@@ -154,13 +154,12 @@ footer{
 	margin: 1em;
 }
 
-.icon{
-	width: 35px;
-}
-
-.right{
-	right: 15px;
+footer p{
+	text-align: right;
 	position: absolute;
+	display: inline;
+	right: 30px;
+	bottom: 20px;
 }
 
 /*FOOTER END*/
