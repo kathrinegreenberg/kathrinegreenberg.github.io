@@ -16,10 +16,12 @@ html{
 
 body{
 	margin: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 	
 header{
 	background-color: #E3E3E3;
+	opacity: 70%;
 }
 
 .logo {
@@ -29,12 +31,39 @@ header{
 .nav-btn, 
 .nav-btn:link, 
 .nav-btn:visited{
-	display:block;
+	display: block;
 	height: 40px;
 	width: 40px;
 	position: absolute;
-	top: 15px;
+	top: 30px;
+	right: 2%;
 	background: url(../images/nav-icon.svg) no-repeat right center;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{	
+}
+
+nav{
+	width: 100%;
+	float: right;
+	margin: 1.6em 0;
+	right: 5em;
+}
+
+nav li, 
+nav li:link, 
+nav li:visited{
+	list-style: none;
+	float: right;
+	margin: 0 1em;
+	color: white;
+}
+
+nav li:hover,
+nav li:focus,
+nav li:active{	
 }
 
 .nav-top{
@@ -42,6 +71,29 @@ header{
 }
 
 .nav-top[data-state="expanded"]{
-	display: block;
+	display: inline;
+	position: absolute;
 	margin-bottom: 30px;
+}
+
+h1{
+	font-size: 85px;
+	text-align: center;
+	color: white;
+}
+
+.name{
+	background-color: #858585;
+	padding: 10%;
+}
+
+footer{
+	background-color: #E3E3E3;
+	bottom: 0px;
+	position: absolute;
+	width: 100%
+}
+
+.footer-logo{
+	width: 60px;	
 }
