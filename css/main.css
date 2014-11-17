@@ -16,8 +16,11 @@ html{
 
 body{
 	margin: 0;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
+
+/*HEADER*/
 	
 header{
 	background-color: #E3E3E3;
@@ -58,7 +61,7 @@ nav li:visited{
 	list-style: none;
 	float: right;
 	margin: 0 1em;
-	color: white;
+	color: grey;
 }
 
 nav li:hover,
@@ -76,10 +79,14 @@ nav li:active{
 	margin-bottom: 30px;
 }
 
+/*HEADER END*/
+
 h1{
 	font-size: 85px;
 	text-align: center;
 	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
 
 .name{
@@ -87,13 +94,73 @@ h1{
 	padding: 10%;
 }
 
+h2{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+.about{
+	margin: 15%;
+}
+
+.about p{
+	margin: 0 10em;
+}
+
+.work{
+	margin: 15% 5%;
+}
+
+.row1 a{
+	margin: .5em;	
+}
+
+.row1{
+	margin: 0 0 .5em .7em;
+}
+
+.row2 a{
+	margin: .5em;
+}
+
+.row2{
+	margin: 1em 0 0 .7em;
+}
+
+.row3 a{
+	margin: .5em;
+}
+
+.row3{
+	margin: 1em 0 0 .7em;
+}
+
+.contact{
+	margin: 15%;
+}
+
+/*FOOTER*/
+
 footer{
 	background-color: #E3E3E3;
-	bottom: 0px;
 	position: absolute;
 	width: 100%
 }
 
 .footer-logo{
 	width: 60px;	
+	margin: 1em;
 }
+
+.icon{
+	width: 35px;
+}
+
+.right{
+	right: 15px;
+	position: absolute;
+}
+
+/*FOOTER END*/
