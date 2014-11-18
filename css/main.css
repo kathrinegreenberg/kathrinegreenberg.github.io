@@ -197,7 +197,26 @@ h2{
 	margin: 15%;
 }
 
+.icon{
+	width: 120px;
+	margin-right: 3em;
+}
+
+.social{
+	display: inline;
+}
+
 /*CONTACT END*/
+
+/*PROJECT PAGE*/
+
+.image1{
+	margin-top: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/*PROJECT PAGE END*/
 
 /*FOOTER*/
 
