@@ -95,7 +95,6 @@ nav li:active{
 		margin-left: 0;
 		background-color: #CCCCCC;
 		padding: 1em;
-		z-index: 2;
 	}
 	
 	.dark{
@@ -195,6 +194,7 @@ h2{
 .view img{
 	display: inline;
 	position: relative;
+	float: left;
 }
 
 .view p {
@@ -222,7 +222,7 @@ h2{
 }
 
 .view-first p { 
-    transform: translateY(100px); /*decides how dramatic the transition in is*/
+    transform: translateY(100px);  
     opacity: 0;
     transition: all 0.2s linear;
 }
@@ -256,11 +256,18 @@ h2{
 
 .icon{
 	width: 120px;
-	margin: 0 auto;
+	display: inline-block;
+	margin-right: 2em;
 }
 
 .social{
-	display: inline;
+	display: block;
+	text-align: center;
+}
+@media only screen and (max-width: 21.75em) {
+	.contact h2{
+		font-size: 30px;
+	}
 }
 
 /*CONTACT END*/
