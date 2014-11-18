@@ -98,6 +98,8 @@ h2{
 	font-weight: 200;
 }
 
+/*ABOUT*/
+
 .about{
 	margin: 15%;
 }
@@ -106,37 +108,35 @@ h2{
 	margin: 0 10em;
 }
 
+/*ABOUT END*/
+
+/*WORK*/
+
 .work{
 	margin: 15% 5%;
 }
 
-.row1 a{
-	margin: .5em;	
+.work a{
+	margin: .75em;
 }
 
 .row1{
-	margin: 0 0 .5em .7em;
+	margin: 0 0 .75em .9em;
 }
 
-.row2 a{
-	margin: .5em;
+.rows{
+	margin: 1.5em 0 0 .9em;
 }
 
-.row2{
-	margin: 1em 0 0 .7em;
-}
+/*WORK END*/
 
-.row3 a{
-	margin: .5em;
-}
-
-.row3{
-	margin: 1em 0 0 .7em;
-}
+/*CONTACT*/
 
 .contact{
 	margin: 15%;
 }
+
+/*CONTACT END*/
 
 /*FOOTER*/
 
