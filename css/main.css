@@ -23,8 +23,9 @@ body{
 /*HEADER*/
 	
 header{
-	background-color: #E3E3E3;
-	opacity: 70%;
+	background-color: rgba(235,235,235,0.8);
+	position: fixed;
+	width: 100%;
 }
 
 .logo {
@@ -41,11 +42,6 @@ header{
 	top: 30px;
 	right: 2%;
 	background: url(../images/nav-icon.svg) no-repeat right center;
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active{	
 }
 
 nav{
@@ -67,6 +63,7 @@ nav li:visited{
 nav li:hover,
 nav li:focus,
 nav li:active{	
+	color: white;
 }
 
 .nav-top{
@@ -91,7 +88,7 @@ h1{
 
 .name{
 	background-color: #858585;
-	padding: 10%;
+	padding: 15% 10% 10% 10%;
 }
 
 h2{
