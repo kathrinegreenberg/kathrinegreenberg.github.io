@@ -10,3 +10,7 @@ var navTop = document.querySelector('.nav-top');
 		}
 		
 	});
+	
+$(document).ready(function() {
+	$('.nav-bar a').smoothScroll({offset: -125 })
+});
