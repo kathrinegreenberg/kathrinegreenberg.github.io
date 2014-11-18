@@ -26,6 +26,7 @@ header{
 	background-color: rgba(235,235,235,0.8);
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 
 .logo {
@@ -94,6 +95,7 @@ nav li:active{
 		margin-left: 0;
 		background-color: #CCCCCC;
 		padding: 1em;
+		z-index: 2;
 	}
 	
 	.dark{
@@ -120,6 +122,28 @@ h1{
 	padding: 15% 10% 10% 10%;
 }
 
+@media only screen and (max-width: 38em) {
+	
+	h1{
+		font-size: 70px;
+	}
+	
+	.name{
+		padding: 20% 10% 10% 10%;
+	}
+}
+
+@media only screen and (max-width: 32em) {
+	
+	h1{
+		display: none;
+	}
+	
+	.name{
+		height: 150px;
+	}
+}
+
 h2{
 	font-size: 50px;
 	text-align: center;
@@ -130,11 +154,14 @@ h2{
 /*ABOUT*/
 
 .about{
-	margin: 15%;
+	margin: 15% 25%;
 }
 
-.about p{
-	margin: 0 10em;
+@media only screen and (max-width: 35em) {
+	
+	.about{
+		margin: 15%;
+	}
 }
 
 /*ABOUT END*/
@@ -222,13 +249,14 @@ h2{
 
 /*CONTACT*/
 
+
 .contact{
 	margin: 15%;
 }
 
 .icon{
 	width: 120px;
-	margin-right: 3em;
+	margin: 0 auto;
 }
 
 .social{
@@ -275,6 +303,92 @@ h2{
 .piece p{
 	text-align: center;
 	margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 75em) {
+	
+	.image2{
+		width: 47.75%;
+	}
+	
+	.image3{
+		width: 47.75%;
+	}
+}
+
+@media only screen and (max-width: 72em) {
+	
+	.image2{
+		width: 47.65%;
+	}
+	
+	.image3{
+		width: 47.65%;
+	}
+}
+
+@media only screen and (max-width: 69em) {
+	
+	.image2{
+		width: 47.55%;
+	}
+	
+	.image3{
+		width: 47.55%;
+	}
+}
+
+@media only screen and (max-width: 66em) {
+	
+	.image2{
+		width: 47.45%;
+	}
+	
+	.image3{
+		width: 47.45%;
+	}
+}
+
+@media only screen and (max-width: 63em) {
+	
+	.image2{
+		width: 47.35%;
+	}
+	
+	.image3{
+		width: 47.35%;
+	}
+}
+
+@media only screen and (max-width: 61em) {
+	
+	.image2{
+		width: 47.25%;
+	}
+	
+	.image3{
+		width: 47.25%;
+	}
+}
+
+@media only screen and (max-width: 59em) {
+	
+	.image2{
+		width: 100%;
+		margin: 1em 0 0;
+	}
+	
+	.image3{
+		width: 100%;
+		margin: 1em 0;
+	}
+}
+
+@media only screen and (max-width: 20em) {
+	
+	.piece h2{
+		font-size: 30px;
+	}
 }
 
 /*PROJECT PAGE END*/
