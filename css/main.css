@@ -210,10 +210,42 @@ h2{
 
 /*PROJECT PAGE*/
 
+.piece-title{
+	margin-top: 200px;
+}
+
 .image1{
-	margin-top: 70%;
+	margin-top: 150px;
+	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+.image2{
+	margin: 2em 1em 2em 0;
+	width: 47.85%;
+}
+
+.image3{
+	margin: 2em 0 2em 1em;
+	width: 47.85%;
+}
+
+.small-images{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.image4{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.piece p{
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 /*PROJECT PAGE END*/
