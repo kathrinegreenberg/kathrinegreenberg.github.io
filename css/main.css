@@ -157,7 +157,6 @@ h2{
 }
 
 @media only screen and (max-width: 35em) {
-	
 	.about{
 		margin: 15%;
 	}
@@ -171,6 +170,12 @@ h2{
 	margin: 15% 5%;
 }
 
+.left{
+	overflow: hidden;
+	display: block;
+	text-align: center;
+}
+
 .view{
 	width: 525px;
 	height: 375px;
@@ -180,6 +185,19 @@ h2{
 	cursor: default;
 	backround: #000000;
 	margin: 20px;
+	float: left;
+}
+
+@media only screen and (max-width: 79em) {
+	.view{
+		width: 40%;
+		height: 40%;
+	}
+	
+	.view .mask{
+		width: 40%;
+		height: 40%;
+	}
 }
 
 .view .mask{
@@ -189,12 +207,6 @@ h2{
 	overflow: hidden;
 	top: 0;
 	left: 0;
-}
-
-.view img{
-	display: inline;
-	position: relative;
-	float: left;
 }
 
 .view p {
@@ -264,6 +276,7 @@ h2{
 	display: block;
 	text-align: center;
 }
+
 @media only screen and (max-width: 21.75em) {
 	.contact h2{
 		font-size: 30px;
