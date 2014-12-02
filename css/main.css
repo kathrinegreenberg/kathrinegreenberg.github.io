@@ -27,12 +27,12 @@ header{
 	position: fixed;
 	width: 100%;
 	z-index: 10;
-	height: 4em;
+	height: 6.5em;
 }
 
 .logo {
 	margin: 15px;
-	width: 6%;
+	width: 4.5em;
 }
 
 .nav-btn, 
@@ -42,8 +42,8 @@ header{
 	height: 60px;
 	width: 60px;
 	position: absolute;
-	top: 15%;
-	right: 2%;
+	top: 20%;
+	right: 2em;
 	background: url(../images/nav-icon.svg) no-repeat right center;
 }
 
@@ -65,6 +65,7 @@ header{
 	float: right;
 	color: #858585;
 	text-decoration: none;
+	margin: 1em;
 }
 
 .nav-bar a:hover,
@@ -114,6 +115,7 @@ header{
 		float: right;
 		color: white;
 		text-decoration: none;
+		margin: 0;
 	}
 	
 	.nav a:hover,
