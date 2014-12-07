@@ -1,5 +1,17 @@
 /*PROJECT PAGE*/
 
+.back{
+	height: 3.5em;
+	margin-left: 31.5%;
+	margin-right: 8em;
+	padding-bottom: 1.5em;
+}
+
+.forward{
+	height: 3.5em;
+	padding-bottom: 1.5em;
+}
+
 .piece-title{
 	margin-top: 200px;
 }
