@@ -14,6 +14,14 @@ html{
 	text-size-adjust: 100%;
 }
 
+/*COLOURS
+grey #858585
+light teal #C9E6CE
+mid teal #90D2C1
+dark teal #49BDB5
+darkest teal #339999
+*/
+
 body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -148,7 +156,7 @@ h1{
 }
 
 .name{
-	background-color: #858585;
+	background: url(../images/head-background.svg);
 	padding: 15% 10% 10% 10%;
 }
 
