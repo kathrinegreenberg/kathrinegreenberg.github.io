@@ -26,7 +26,7 @@ body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	background-color: rgba(144,210,193,0.2);
+	background-color: rgba(144,210,193,0.15);
 }
 
 /*HEADER*/
@@ -80,7 +80,7 @@ header{
 .nav-bar a:hover,
 .nav-bar a:focus,
 .nav-bar a:active{	
-	color: white;
+	color: #90D2C1;
 }
 
 .nav-top{
@@ -214,7 +214,7 @@ h2{
 	overflow: hidden;
 	display: block;
 	text-align: center;
-	margin-left: 10%;
+	margin-left: 11%;
 }
 
 .view{
@@ -268,7 +268,7 @@ h2{
 
 .view-first .mask {
     opacity: 0;
-    background-color: rgba(201,229,206, 0.7); 
+    background-color: rgba(144,210,193, 0.7); 
     transition: all 0.4s ease-in-out;
 }
 
@@ -306,9 +306,14 @@ h2{
 }
 
 .icon{
-	width: 120px;
+	width: 20%;
 	display: inline-block;
 	margin-right: 2em;
+}
+
+.last-icon{
+	width: 20%;
+	display: inline-block;
 }
 
 .social{
@@ -316,8 +321,24 @@ h2{
 	text-align: center;
 }
 
-@media only screen and (max-width: 21.75em) {
-	.contact h2{
+@media only screen and (max-width: 53.43em) {
+	.icon{
+		margin-right: 1em;
+	}
+}
+
+@media only screen and (max-width: 31em) {
+	h2{
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 27em) {
+	.icon{
+		margin-right: .25em;
+	}
+	
+	h2{
 		font-size: 30px;
 	}
 }
