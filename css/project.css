@@ -61,6 +61,10 @@
 	margin: 10em 5% 5% 15%;
 }
 
+.nutra-bottom{
+	margin-top: 5%;
+}
+
 @media only screen and (max-width: 75em) {
 	
 	.image2{
@@ -141,6 +145,10 @@
 }
 
 @media only screen and (max-width: 34em) {
+	.poster2{
+		margin-top: 5%;
+	}
+	
 	.poster1{
 		width: 80%;
 		margin-left: 10%;
@@ -152,7 +160,29 @@
 	}
 }
 
+@media only screen and (max-width: 32em) {
+	.back{
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 28em) {
+	.back{
+		margin-left: 5%;
+	}
+}	
+
+@media only screen and (max-width: 28em) {
+	.back{
+		margin-right: 4em;
+	}
+}
+
 @media only screen and (max-width: 20em) {
+	.back{
+		margin-right: 1em;
+		margin-left: .8%;
+	}
 	
 	.piece h2{
 		font-size: 30px;

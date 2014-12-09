@@ -257,6 +257,12 @@ h2{
 	}
 }
 
+/*@media only screen and (max-width: 52em) {
+	.view p{
+		font-size: 12px;
+	}
+}*/
+
 @media only screen and (max-width: 30em) {
 	.view {
 		width: 90%;
@@ -402,7 +408,7 @@ h2{
 /*FOOTER*/
 
 footer{
-	background-color: #339999;
+	background-color: #90D2C1;
 	position: absolute;
 	width: 100%
 }
