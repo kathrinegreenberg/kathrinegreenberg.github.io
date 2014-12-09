@@ -17,7 +17,7 @@
 }
 
 .image1{
-	margin-top: 150px;
+	margin-top: 10em;
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -48,6 +48,17 @@
 .piece p{
 	text-align: center;
 	margin-bottom: 100px;
+}
+
+.poster{
+	width: 25%;
+	margin: 5% 5% 5% 15%;
+}
+
+.poster1{
+	margin-top: 10em;
+	width: 25%;
+	margin: 10em 5% 5% 15%;
 }
 
 @media only screen and (max-width: 75em) {
@@ -126,6 +137,18 @@
 	.image3{
 		width: 100%;
 		margin: 1em 0;
+	}
+}
+
+@media only screen and (max-width: 34em) {
+	.poster1{
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.poster{
+		width: 80%;
+		margin-left: 10%;
 	}
 }
 
