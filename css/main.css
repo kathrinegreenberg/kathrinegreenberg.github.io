@@ -337,16 +337,42 @@ h2{
 	width: 20%;
 	display: inline-block;
 	margin-right: 2em;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
 }
 
 .last-icon{
 	width: 20%;
 	display: inline-block;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
 }
 
 .social{
 	display: block;
 	text-align: center;
+}
+
+.icon:hover {
+	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	transform:scale(1.2,1.2);
+}
+
+.last-icon:hover {
+	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	transform:scale(1.2,1.2);
 }
 
 @media only screen and (max-width: 53.43em) {
@@ -376,7 +402,7 @@ h2{
 /*FOOTER*/
 
 footer{
-	background-color: white;
+	background-color: #339999;
 	position: absolute;
 	width: 100%
 }
@@ -392,6 +418,14 @@ footer p{
 	display: inline;
 	right: 30px;
 	bottom: 20px;
+	color: white;
+}
+
+@media only screen and (max-width: 18em) {
+	footer p{
+		font-size: 12px;
+		margin-bottom: 1.75em;
+	}
 }
 
 /*FOOTER END*/
