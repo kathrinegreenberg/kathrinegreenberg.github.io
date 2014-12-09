@@ -263,11 +263,11 @@ h2{
 	}
 }
 
-/*@media only screen and (max-width: 52em) {
-	.view p{
-		font-size: 12px;
+@media only screen and (max-width: 45em) {
+	.view p {
+		visibility: hidden;
 	}
-}*/
+}
 
 @media only screen and (max-width: 30em) {
 	.view {
