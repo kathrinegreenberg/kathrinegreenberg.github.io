@@ -29,6 +29,12 @@ body{
 	background-color: rgba(144,210,193,0.15);
 }
 
+.four{
+	text-align: center;
+	margin-left: 40%;
+	text-decoration: none;
+}
+
 /*HEADER*/
 	
 header{
